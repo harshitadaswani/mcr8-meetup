@@ -15,6 +15,7 @@ export function Dropdown() {
       size="md"
       onChange={handleEventChange}
       variant="plain"
+      // defaultValue="both"
     >
       <Option value="online">Online</Option>
       <Option value="offline">Offline</Option>

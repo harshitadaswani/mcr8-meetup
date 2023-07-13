@@ -24,7 +24,7 @@
           "designation": "Software Engineer"
         }
       ],
-      "price": "₹7,500",
+      "price": "7,500",
       "additionalInformation": {
         "dressCode": "Business casual",
         "ageRestrictions": "18 and above"
@@ -84,7 +84,7 @@
           "designation": "SEO Specialist"
         }
       ],
-      "price": "₹3,000",
+      "price": "3,000",
       "additionalInformation": {
         "dressCode": "Smart casual",
         "ageRestrictions": "18 and above"
@@ -144,7 +144,7 @@
           "designation": "Machine Learning Engineer"
         }
       ],
-      "price": "₹5,500",
+      "price": "5,500",
       "additionalInformation": {
         "dressCode": "Casual",
         "ageRestrictions": "18 and above"
@@ -204,7 +204,7 @@
           "designation": "Investment Advisor"
         }
       ],
-      "price": "₹9,000",
+      "price": "9,000",
       "additionalInformation": {
         "dressCode": "Business formal",
         "ageRestrictions": "18 and above"

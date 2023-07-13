@@ -84,7 +84,7 @@ export const MeetupDetail = () => {
         </div>
         <div>
           <div className="white-bg mt-m br-m p-m flex flex-column gap-l">
-            <div className="flex flex-row flex-space-evenly flex-align-center">
+            <div className="flex flex-row flex-align-center">
               <AiOutlineClockCircle />
               <p className="pl-xs">
                 {formattedStartDate} at {formattedStartTime} to <br />
@@ -118,7 +118,7 @@ export const MeetupDetail = () => {
               )}
             </div>
           </div>
-          {speakers.length && (
+          {speakers.length !== 0 && (
             <div className="mt-xl">
               <h3>Speakers: ({speakers.length})</h3>
               <div className="">

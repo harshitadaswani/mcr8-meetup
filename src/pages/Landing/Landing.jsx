@@ -16,8 +16,7 @@ export const Landing = () => {
     searchQuery === ""
       ? filteredMeetupData
       : filteredMeetupData.filter(
-          ({ location, title, eventTags }) =>
-            location.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          ({ title, eventTags }) =>
             title.toLowerCase().includes(searchQuery.toLowerCase()) ||
             eventTags.some((tag) =>
               tag.toLowerCase().includes(searchQuery.toLowerCase())
@@ -26,9 +25,8 @@ export const Landing = () => {
   return (
     <div>
       <div className="flex flex-row flex-space-between flex-align-center">
-        <h1 className="pl-s">Upcoming Meetup Events</h1>
+        <h1 className="pl-s">Meetup Events</h1>
         <div className="mr-s flex flex-row gap-l flex-align-center">
-          <p>Event Type: </p>
           <Dropdown />
         </div>
       </div>
